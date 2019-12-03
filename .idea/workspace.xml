@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f92595f5-c27d-46bf-ab13-3643bb0d37d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Luenci/demo/BaseDataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luenci/demo/DataTypeExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luenci/demo/DataTypeExchange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Luenci/demo/DemoCode1.java" afterDir="false" />
+    <list default="true" id="f92595f5-c27d-46bf-ab13-3643bb0d37d7" name="Default Changelist" comment="Revert &quot;第二次提交：基本数据类型&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Luenci/Method/MethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Luenci/demo/OperatorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Luenci/demo/fristDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Luenci/demo/fristDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,19 +24,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Luenci/demo/fristDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/Luenci/demo/DemoCode1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="334">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Luenci/demo/OperatorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaCode.iml">
+        <entry file="file://$PROJECT_DIR$/src/Luenci/Method/MethodDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="319">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,6 +80,8 @@
         <option value="$PROJECT_DIR$/src/Luenci/demo/DataTypeExchange.java" />
         <option value="$PROJECT_DIR$/src/Luenci/demo/DataTypeExchange2.java" />
         <option value="$PROJECT_DIR$/src/Luenci/demo/fristDemo.java" />
+        <option value="$PROJECT_DIR$/src/Luenci/demo/OperatorDemo.java" />
+        <option value="$PROJECT_DIR$/src/Luenci/Method/MethodDemo.java" />
       </list>
     </option>
   </component>
@@ -85,8 +97,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Luenci" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -112,22 +145,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoCode1">
+  <component name="RunManager" selected="Application.MethodDemo">
     <configuration name="BaseDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Luenci.demo.BaseDataType" />
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Luenci.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataTypeExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Luenci.demo.DataTypeExchange" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
@@ -165,8 +185,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fristDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Luenci.demo.fristDemo" />
+    <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Luenci.Method.MethodDemo" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Luenci.Method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Luenci.demo.OperatorDemo" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
@@ -179,19 +212,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.fristDemo" />
       <item itemvalue="Application.DemoCode1" />
       <item itemvalue="Application.BaseDataType" />
-      <item itemvalue="Application.DataTypeExchange" />
       <item itemvalue="Application.DataTypeExchange2" />
+      <item itemvalue="Application.OperatorDemo" />
+      <item itemvalue="Application.MethodDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodDemo" />
+        <item itemvalue="Application.OperatorDemo" />
         <item itemvalue="Application.DemoCode1" />
         <item itemvalue="Application.DataTypeExchange2" />
         <item itemvalue="Application.BaseDataType" />
-        <item itemvalue="Application.DataTypeExchange" />
-        <item itemvalue="Application.fristDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +245,8 @@
       <workItem from="1575181982169" duration="6150000" />
       <workItem from="1575195857616" duration="2925000" />
       <workItem from="1575257261864" duration="7083000" />
+      <workItem from="1575290215606" duration="2480000" />
+      <workItem from="1575352728138" duration="4271000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1575005349613</created>
@@ -241,11 +276,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575011433653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Revert &quot;第二次提交：基本数据类型&quot;">
+      <created>1575272269508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575272269508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30725000" />
+    <option name="totallyTimeSpent" value="39011000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -258,10 +300,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="835" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64285713" visible="true" weight="0.15013404" />
-      <window_info id="Structure" order="1" sideWeight="0.35714287" side_tool="true" visible="true" weight="0.15013404" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6387755" visible="true" weight="0.1541555" />
+      <window_info id="Structure" order="1" sideWeight="0.3612245" side_tool="true" visible="true" weight="0.1541555" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -269,7 +310,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3029872" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3029872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,17 +419,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
     <MESSAGE value="Revert &quot;Initial commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial commit&quot;" />
+    <MESSAGE value="Revert &quot;第二次提交：基本数据类型&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;第二次提交：基本数据类型&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/BaseDataType.java" />
-    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/DemoCode1.java" />
-    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/DataTypeExchange.java" />
-    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/DataTypeExchange2.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/JavaCode.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="116">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -399,10 +437,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaCode.iml">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/BaseDataType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/DataTypeExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/DataTypeExchange2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/DemoCode1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Luenci/demo/OperatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Luenci/Method/MethodDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
