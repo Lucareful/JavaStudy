@@ -1,4 +1,4 @@
-package Luenci.Method;
+package Luenci.method;
 
 /**
  * @author Luenci
@@ -13,7 +13,9 @@ public class MethodDemo {
 
     }
 
-    // 农民工作
+    /**
+     农民
+     */
     public static void farmer(){
         System.out.println("种地");
         System.out.println("浇水");
@@ -21,8 +23,9 @@ public class MethodDemo {
         System.out.println("出售");
 
     }
-
-    // 商贩
+    /**
+        商贩
+     */
     public static void seller(){
         System.out.println("采购");
         System.out.println("打包");
@@ -30,7 +33,9 @@ public class MethodDemo {
         System.out.println("售卖");
     }
 
-    // 我
+    /**
+     我
+     */
     public static void me(){
         System.out.println("吃");
     }

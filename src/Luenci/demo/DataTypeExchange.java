@@ -9,8 +9,10 @@ package Luenci.demo;
 public class DataTypeExchange {
 
     public static void main(String[] args){
-        System.out.println(1024); // 这是个整数，默认就是int类型
-        System.out.println(3.14); // 这是个浮点数，默认就是double类型
+        // 这是个整数，默认就是int类型
+        System.out.println(1024);
+        // 这是个浮点数，默认就是double类型
+        System.out.println(3.14);
 
         long num1 = 100L;
         System.out.println(num1);
