@@ -1,11 +1,11 @@
-package luenci.method;
+package Luenci.method;
 
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
 
 /**
- * @author luenci
+ * @author Luenci
  * @version 1.0
  * @date 2019/12/4 11:30
  */

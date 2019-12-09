@@ -1,7 +1,9 @@
-package luenci.method;
+package Luenci.method;
+
+import com.sun.jmx.snmp.internal.SnmpSubSystem;
 
 /**
- * @author luenci
+ * @author Luenci
  * @version 1.0
  * @date 2019/12/4 15:10
  */

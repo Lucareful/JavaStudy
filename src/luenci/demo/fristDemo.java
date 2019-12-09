@@ -1,7 +1,7 @@
-package luenci.demo;
+package Luenci.demo;
 
 /**
- * @author luenci
+ * @author Luenci
  * @version 1.0
  * @date 2019/11/29 13:12
  */
