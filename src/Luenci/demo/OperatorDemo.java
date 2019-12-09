@@ -1,7 +1,7 @@
-package luenci.demo;
+package Luenci.demo;
 
 /**
- * @author luenci
+ * @author Luenci
  * @version 1.0
  * @date 2019/12/2 20:45
  */
@@ -15,7 +15,7 @@ public class OperatorDemo {
         System.out.println(a / b);
 
         // 用字符串进行连接的时候结果都会变成字符串
-        String str = "luenci";
+        String str = "Luenci";
         System.out.println(str + 404);
 
         // 单独使用的时候++在前和++在后没什么区别
