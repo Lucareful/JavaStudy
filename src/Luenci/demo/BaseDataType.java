@@ -19,7 +19,8 @@ public class BaseDataType {
 
         System.out.println("======================");
 
-        byte num3 = 30; // 不能超过类型的数据范围
+        // 不能超过类型的数据范围
+        byte num3 = 30;
 
         System.out.println(num3);
 
